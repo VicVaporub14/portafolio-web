@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lightHover: "#fcf4ff";
+  --color-darkHover: "#2a004a";
+  --color-darkTheme: "#11001F";
+  --font-outfit: "Outfit", "sans-serif";
+  --font-ovo: "Ovo", serif;
+  --bg-radial-light: radial-gradient(circle at 500px 10px, rgb(230, 240, 255) 10%, rgb(255,255,255) 60%);
+  --bg-radial-dark: radial-gradient(circle at 500px 10px, rgba(30,58,108, 1) 10%, rgba(30,40,60, 1) 60%);
+};
+
+.bg-radial-light {
+  background: var(--bg-radial-light);
+}
+
+.bg-radial-dark {
+  background: var(--bg-radial-dark);
+}
+
+/* *{
+  font-family: Outfit;
+} */
+
