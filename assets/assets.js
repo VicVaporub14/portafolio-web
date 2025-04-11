@@ -94,30 +94,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Quadra Car Rental',
+        description: 'A full-stack web application for vehicle rental and reservation. Built with React.js TypeScript, Tailwind CSS on the frontend. Node.js, Express, Prisma and Mongoose. It features a public landing page, a booking system for customers, and an admin dashboard for managing cars, rentals, insurances, and users.',
+        bgImage: '/project-1.png',
+        link:''
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png'
+        title: 'UpTask',
+        description: 'A web-based project and task management system that allows users to create, organize, and track progress on multiple projects. Features include user authentication, real-time task updates, and a responsive interface for efficient collaboration.',
+        bgImage: '/project-2.png',
+        link:''
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
+        title: 'Fresh Coffe',
+        description: 'Food and Ordering Point of Sale',
+        bgImage: '/project-3.png',
+        link:''
+    }
 ]
 
 export const serviceData = [
     { icon: assets.cuaderno_icon, title: 'Tec de Lerdo Magazine Update', description: 'I contributed in the update of the SICSACID system developed in PHP, incorporating new features to improve reviewer management and their details visualization', link: '' },
-    { icon: assets.ajuste_icon, title: 'Quadra App', description: 'I developed a web platform for vehicle rental and booking using technologies like React, TypeScript, Tailwind, Node.js, Prisma and Moongose', link: '' },
+    { icon: assets.ajuste_icon, title: 'Quadra Car Rental', description: 'I developed a web platform for vehicle rental and booking using technologies like React, TypeScript, Tailwind, Node.js, Prisma and Moongose', link: '' },
     { icon: assets.navegador_icon, title: 'Development of 5 more projects', description: 'I have designed, built and deploy projects like a project and task manager, a budget management, and a Point of Sale System for Food and Orders', link: '' },
 ]
 

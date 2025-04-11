@@ -39,8 +39,8 @@ export default function Header() {
                     />
                 </Link>
                 <Link 
+                    target='_blank'
                     href="/my-resume.pdf"
-                    download
                     className='text-sm 2xl:text-lg 2xl:px-10 px-6 2xl:py-3  py-2 border rounded-full border-gray-500 flex items-center gap-2'
                 >
                     My Resume
