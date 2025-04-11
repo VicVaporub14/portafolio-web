@@ -3,14 +3,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-export default function Services() {
+export default function Experience() {
   return (
-    <div id='services' className='w-full max-w-7xl mx-auto py-10 px-6 scroll-mt-20'> {/* px-[12%] */}
-        <h4 className='text-center mb-2 text-lg font-ovo'>What I offer</h4>
-        <h2 className='text-center text-4xl font-ovo'>Services</h2>
+    <div id='experience' className='w-full max-w-7xl mx-auto py-10 px-6 scroll-mt-20'> {/* px-[12%] */}
+        <h4 className='text-center mb-2 text-lg font-ovo'>What I've done</h4>
+        <h2 className='text-center text-4xl font-ovo'>Experience</h2>
 
-        <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>I'm a student from Gomez Palacio Dg, MX with 2 years of experience in NOSE</p>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6 my-10'>
+        <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>I'm a student from Gomez Palacio Dgo, MX with experience in web development</p>
+        <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-10'>
             {serviceData.map(({icon, title, description, link}, index)=>(
                 <div 
                     key={index} 

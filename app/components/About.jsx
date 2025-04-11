@@ -16,7 +16,7 @@ export default function About() {
                 />
             </div>
             <div className=''> {/* flex-1 */}
-                <p className='mb-10 text-center max-w-2xl font-ovo '>I am a student passionate about technology, with skills in both frontend and backend development. My focus is on web development and database management, always striving to learn and improve my skills. I have worked on various projects where I have applied technologies such as React, Next.js, Node.js, PostgreSQL, and MongoDB.</p>
+                <p className='mb-10 text-center max-w-2xl font-ovo '>I'm a tech-loving student, who enjoys both frontend and backend development. My focus is on web development and database management, always striving to learn and sharpening my skills. I've worked on projects where I've applied technologies such as React, Next.js, Node.js, .NET, PostgreSQL, and MongoDB.</p>
 
                 <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                     {infoList.map(({icon, iconDark, title, description}, index) => (
@@ -32,19 +32,17 @@ export default function About() {
                     ))}
                 </ul>
 
-                <div className=''>
-                    <h4 className='my-6 text-gray-700 font-ovo'>Tools I use</h4>
-                    <ul className='grid grid-cols-4 sm:flex items-center gap-3 sm:gap-5'>
-                        {toolsData.map((tool, index) => (
-                            <li 
-                                key={index}
-                                className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
-                            >
-                                <Image src={tool} alt='Tool' className='w-5 sm:w-7' />
-                            </li>
-                        ))}
-                    </ul>
-                </div>
+                <h4 className='my-6 text-gray-700 font-ovo'>Tools I use</h4>
+                <ul className='w-72 sm:w-full grid grid-cols-5 sm:flex items-center gap-3 sm:gap-5'>
+                    {toolsData.map((tool, index) => (
+                        <li 
+                            key={index}
+                            className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
+                        >
+                            <Image src={tool} alt='Tool' className='w-5 sm:w-7' />
+                        </li>
+                    ))}
+                </ul>
             </div>
         </div>
     </div>

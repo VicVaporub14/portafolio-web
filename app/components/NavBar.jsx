@@ -42,7 +42,7 @@ export default function NavBar() {
                 <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? '' : 'bg-white shadow-md bg-opacity-50'}`}>
                     <li><a className="font-ovo" href="#top">Home</a></li>
                     <li><a className="font-ovo" href="#about">About me</a></li>
-                    <li><a className="font-ovo" href="#services">Services</a></li>
+                    <li><a className="font-ovo" href="#experience">Experience</a></li>
                     <li><a className="font-ovo" href="#work">My Work </a></li>
                     <li><a className="font-ovo" href="#contact">Contact me </a></li>
                 </ul>

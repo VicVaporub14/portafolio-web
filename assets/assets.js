@@ -39,6 +39,10 @@ import nextjs_icon from './nextjs.png'
 import expressjs_icon from './expressjs.png'
 import git_icon from './git.png'
 import aws_icon from './aws.png'
+import google_cloud_icon from './google-cloud.png'
+import cuaderno_icon from './cuaderno.gif'
+import ajuste_icon from './ajuste.gif'
+import navegador_icon from './navegador.gif'
 
 export const assets = {
     user_image,
@@ -81,7 +85,11 @@ export const assets = {
     nextjs_icon,
     expressjs_icon,
     git_icon,
-    aws_icon
+    aws_icon,
+    google_cloud_icon,
+    cuaderno_icon,
+    ajuste_icon,
+    navegador_icon
 };
 
 export const workData = [
@@ -108,25 +116,23 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.cuaderno_icon, title: 'Tec de Lerdo Magazine Update', description: 'I contributed in the update of the SICSACID system developed in PHP, incorporating new features to improve reviewer management and their details visualization', link: '' },
+    { icon: assets.ajuste_icon, title: 'Quadra App', description: 'I developed a web platform for vehicle rental and booking using technologies like React, TypeScript, Tailwind, Node.js, Prisma and Moongose', link: '' },
+    { icon: assets.navegador_icon, title: 'Development of 5 more projects', description: 'I have designed, built and deploy projects like a project and task manager, a budget management, and a Point of Sale System for Food and Orders', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Lenguages', description: 'HTML, CSS, JavaScript, TypeScript, React Js, Next.js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Lenguages', description: 'JavaScript, TypeScript, React Js, C#, .NET' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Instituto Tecnologico Superior de Lerdo' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projectos', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Skills', description: 'Cloud Computing, Databases, Networking' }
 ];
 
 export const toolsData = [
-    assets.javascript_icon, 
-    assets.typescript_icon, 
     assets.react_icon, 
     assets.nextjs_icon,
     assets.tailwindcss_icon, 
     assets.nodejs_icon, 
     assets.git_icon,
-    assets.aws_icon
+    assets.aws_icon,
+    assets.google_cloud_icon
 ];

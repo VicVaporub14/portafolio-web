@@ -5,9 +5,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
-import Services from "./components/Services";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 
 export default function Home() {
 
@@ -37,7 +37,7 @@ export default function Home() {
       </div>
       
       <About />
-      <Services/>
+      <Experience/>
       <Work />
       <Contact />
       <Footer />
