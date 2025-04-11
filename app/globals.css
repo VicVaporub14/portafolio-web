@@ -6,7 +6,7 @@
   --color-darkTheme: "#11001F";
   --font-outfit: "Outfit", "sans-serif";
   --font-ovo: "Ovo", serif;
-  --bg-radial-light: radial-gradient(circle at 500px 10px, rgb(230, 240, 255) 10%, rgb(255,255,255) 60%);
+  /* --bg-radial-light: radial-gradient(circle at 1200px 600px, rgb(230, 240, 255) 15%, rgb(255,255,255) 20%); */
   --bg-radial-dark: radial-gradient(circle at 500px 10px, rgba(30,58,108, 1) 10%, rgba(30,40,60, 1) 60%);
   --shadow-black: 4px 4px 0 #000;
   --shadow-white: "4px 4px 0 #fff";

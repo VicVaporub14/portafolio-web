@@ -43,7 +43,7 @@ export default function NavBar() {
                     <li><a className="font-ovo" href="#top">Home</a></li>
                     <li><a className="font-ovo" href="#about">About me</a></li>
                     <li><a className="font-ovo" href="#services">Services</a></li>
-                    <li><a className="font-ovo" href="#projects">My Work </a></li>
+                    <li><a className="font-ovo" href="#work">My Work </a></li>
                     <li><a className="font-ovo" href="#contact">Contact me </a></li>
                 </ul>
 
@@ -88,7 +88,7 @@ export default function NavBar() {
                     <li><a className="font-ovo" onClick={closeMenu} href="#top">Home</a></li>
                     <li><a className="font-ovo" onClick={closeMenu} href="#about">About me</a></li>
                     <li><a className="font-ovo" onClick={closeMenu} href="#services">Services</a></li>
-                    <li><a className="font-ovo" onClick={closeMenu} href="#projects">My Work</a></li>
+                    <li><a className="font-ovo" onClick={closeMenu} href="#work">My Work</a></li>
                     <li><a className="font-ovo" onClick={closeMenu} href="#contact">Contact</a></li>
                 </ul>
             </nav>
