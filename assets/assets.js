@@ -107,9 +107,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Lenguajes', description: 'HTML, CSS, JavaScript, TypeScript, React Js, Next.js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Educacion', description: 'Instituto Tecnologico Superior de Lerdo' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Proyectos', description: 'He construido mas de 5 proyectos' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Lenguages', description: 'HTML, CSS, JavaScript, TypeScript, React Js, Next.js' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Instituto Tecnologico Superior de Lerdo' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projectos', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [

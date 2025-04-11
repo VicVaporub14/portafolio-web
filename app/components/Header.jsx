@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <div className='w-11/12 max-w-2xl text-center mx-auto my-6 lg:mt-10 flex flex-col items-center justify-center gap-4'>
+    <div className='w-11/12 max-w-2xl text-center mx-auto h-screen pt-28 flex flex-col items-center justify-center gap-4'>
         <div>
             <Image 
                 src={assets.profile_img} 
@@ -16,21 +16,21 @@ export default function Header() {
         <h3
             className='flex items-end gap-2 text-lg md:text-xl mb-3 font-ovo'
         >
-            Hola! Soy Victor Hugo Soto
+            Hi! I'm Victor Hugo Soto
             <Image src={assets.hand_icon} alt='' className='w-6' />
         </h3>
         <h1
             className='text-4xl text-sky-800 font-ovo'
-        >Desarrollador Web</h1>
+        >Web Developer</h1>
         <p
             className='max-w-2xl mx-auto font-ovo'
-        >Soy un estudiante de la Ing. Sistemas Computacionales, actualmente estoy aprendiendo y mejorando mis habilidades como Desarrollador Web FullStack</p>
+        >I'm a Computer Systems Engineering Student, currently learning and improving my skills as a FullStack Web Developer</p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <Link 
                 href="#contact"
                 className='text-sm 2xl:text-lg 2xl:px-10 px-6 2xl:py-3 py-2 border border-white rounded-full bg-black text-white flex items-center gap-2'
             >
-                Contactame
+                Contact me
                 <Image 
                     src={assets.right_arrow_white} 
                     alt='' 
@@ -42,7 +42,7 @@ export default function Header() {
                 download
                 className='text-sm 2xl:text-lg 2xl:px-10 px-6 2xl:py-3  py-2 border rounded-full border-gray-500 flex items-center gap-2'
             >
-                Mi CV
+                My Resume
                 <Image 
                     src={assets.download_icon} 
                     alt='' 
