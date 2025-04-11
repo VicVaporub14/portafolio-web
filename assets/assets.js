@@ -85,7 +85,7 @@ export const workData = [
     {
         title: 'Geo based app',
         description: 'Mobile App',
-        bgImage: '/work-2.png',
+        bgImage: '/work-2.png'
     },
     {
         title: 'Photography site',
