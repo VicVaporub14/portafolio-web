@@ -38,7 +38,6 @@ import nodejs_icon from './nodejs.png'
 import nextjs_icon from './nextjs.png'
 import expressjs_icon from './expressjs.png'
 import git_icon from './git.png'
-import mongodb_icon from './mongodb.png'
 import aws_icon from './aws.png'
 
 export const assets = {
@@ -82,7 +81,6 @@ export const assets = {
     nextjs_icon,
     expressjs_icon,
     git_icon,
-    mongodb_icon,
     aws_icon
 };
 
