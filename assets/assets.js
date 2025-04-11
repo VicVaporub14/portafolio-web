@@ -5,11 +5,6 @@ import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
-import vscode from './vscode.png';
-import firebase from './firebase.png';
-import figma from './figma.png';
-import git from './git.png';
-import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -35,6 +30,16 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import javascript_icon from './javascript.png'
+import react_icon from './React.webp'
+import typescript_icon from './typescript.png'
+import tailwindcss_icon from './tailwindcss.png'
+import nodejs_icon from './nodejs.png'
+import nextjs_icon from './nextjs.png'
+import expressjs_icon from './expressjs.png'
+import git_icon from './git.png'
+import mongodb_icon from './mongodb.png'
+import aws_icon from './aws.png'
 
 export const assets = {
     user_image,
@@ -44,11 +49,6 @@ export const assets = {
     edu_icon_dark,
     project_icon,
     project_icon_dark,
-    vscode,
-    firebase,
-    figma,
-    git,
-    mongodb,
     right_arrow_white,
     logo,
     logo_dark,
@@ -73,7 +73,17 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    javascript_icon,
+    react_icon,
+    typescript_icon,
+    tailwindcss_icon,
+    nodejs_icon,
+    nextjs_icon,
+    expressjs_icon,
+    git_icon,
+    mongodb_icon,
+    aws_icon
 };
 
 export const workData = [
@@ -113,5 +123,12 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.javascript_icon, 
+    assets.typescript_icon, 
+    assets.react_icon, 
+    assets.nextjs_icon,
+    assets.tailwindcss_icon, 
+    assets.nodejs_icon, 
+    assets.git_icon,
+    assets.aws_icon
 ];
