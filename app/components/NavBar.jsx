@@ -1,6 +1,7 @@
 
 import { assets } from "@/assets/assets";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 export default function NavBar({isDarkMode, setIsDarkMode}) {
@@ -30,7 +31,7 @@ export default function NavBar({isDarkMode, setIsDarkMode}) {
     return (
         <>
             <nav className={`fixed w-full px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 
-            ${isScroll ? 'bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20' : ''}`}>
+            ${isScroll ? 'bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white' : ''}`}>
                 <a href="#top">
                     <Image 
                         src={isDarkMode ? assets.logo_dark_2 : assets.logo}
@@ -39,7 +40,7 @@ export default function NavBar({isDarkMode, setIsDarkMode}) {
                     />
                 </a>
 
-                <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? '' : 'bg-white shadow-md bg-opacity-50'}`}>
+                <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? '' : 'bg-white shadow-md bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent'}`}>
                     <li><a className="font-ovo" href="#top">Home</a></li>
                     <li><a className="font-ovo" href="#about">About me</a></li>
                     <li><a className="font-ovo" href="#experience">Experience</a></li>
@@ -55,21 +56,21 @@ export default function NavBar({isDarkMode, setIsDarkMode}) {
                             className="w-6 cursor-pointer"
                         />
                     </button>
-                    <a 
+                    <Link
                         href="#contact"
                         className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-400 rounded-full ml-4 font-ovo"
                     >
                         Contact
                         <Image 
-                            src={assets.arrow_icon} 
+                            src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} 
                             alt="arrow-icon"
                             className="w-3" 
                         />
-                    </a>
+                    </Link>
 
                     <button className="block md:hidden ml-3">
                         <Image
-                            src={assets.menu_black}
+                            src={isDarkMode ? assets.menu_white : assets.menu_black}
                             alt=""
                             className="w-6 cursor-pointer"
                             onClick={openMenu}
@@ -79,10 +80,10 @@ export default function NavBar({isDarkMode, setIsDarkMode}) {
 
                 {/* Mobile Menu */}
 
-                <ul ref={sideMenuRef} className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-slate-200 transition duration-500">
+                <ul ref={sideMenuRef} className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen text-white bg-lightHover transition duration-500 dark:bg-customBlue">
                     <div className="absolute right-6 top-6" onClick={closeMenu}>
                         <Image
-                            src={assets.close_black} alt="" className="w-5 cursor-pointer"
+                            src={assets.close_white} alt="" className="w-5 cursor-pointer"
                         />
                     </div>
                     <li><a className="font-ovo" onClick={closeMenu} href="#top">Home</a></li>

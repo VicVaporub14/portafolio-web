@@ -21,7 +21,7 @@ export default function Header() {
                 <Image src={assets.hand_icon} alt='' className='w-6' />
             </h3>
             <h1
-                className='text-4xl text-sky-800 font-ovo'
+                className='text-4xl dark:text-sky-600 text-sky-700 font-ovo'
             >Web Developer</h1>
             <p
                 className='max-w-xl mx-auto font-ovo'
@@ -29,7 +29,7 @@ export default function Header() {
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <Link 
                     href="#contact"
-                    className='text-sm 2xl:text-lg 2xl:px-10 px-6 2xl:py-3 py-2 border border-white rounded-full bg-black text-white flex items-center gap-2'
+                    className='text-sm 2xl:text-lg 2xl:px-10 px-6 2xl:py-3 py-2 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
                 >
                     Contact me
                     <Image 
@@ -41,7 +41,7 @@ export default function Header() {
                 <Link 
                     target='_blank'
                     href="/my-resume.pdf"
-                    className='text-sm 2xl:text-lg 2xl:px-10 px-6 2xl:py-3  py-2 border rounded-full border-gray-500 flex items-center gap-2'
+                    className='text-sm 2xl:text-lg 2xl:px-10 px-6 2xl:py-3  py-2 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'
                 >
                     My Resume
                     <Image 
