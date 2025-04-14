@@ -2,7 +2,7 @@ import { assets, workData } from '@/assets/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Work() {
+export default function Work({isDarkMode}) {
     return (
         <div id='work' className='w-full max-w-7xl mx-auto py-10 px-6 scroll-mt-20'>
             <h4 className='text-center mb-2 text-lg font-ovo'>My Portfolio</h4>
@@ -15,7 +15,7 @@ export default function Work() {
 
                     <div
                         key={index}
-                        className="flex flex-col md:flex-row max-w-6xl  rounded-lg cursor-pointer bg-white border-[0.5px] border-gray-200 shadow-md hover:bg-blue-50 hover:shadow-black hover:-translate-y-1 duration-500"
+                        className="flex flex-col md:flex-row max-w-6xl  rounded-lg cursor-pointer bg-white border-[0.5px] border-gray-400 shadow-md hover:bg-blue-50 hover:shadow-black hover:-translate-y-1 duration-500 dark:bg-slate-600 dark:hover:bg-customBlue dark:hover:shadow-none"
                     >
                         <img
                             src={project.bgImage}
@@ -25,7 +25,7 @@ export default function Work() {
                         <div className='flex flex-col flex-1 py-6 px-6 justify-center'>
                             <div>
                                 <h2>{project.title}</h2>
-                                <p className='text-sm text-gray-700'>{project.description}</p>
+                                <p className='text-sm text-gray-700 dark:text-white'>{project.description}</p>
                             </div>
                             <Link
                                 href={project.link}
@@ -44,11 +44,11 @@ export default function Work() {
             </div>
             <Link
                 href={''}
-                className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-blue-50 duration-500'
+                className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-blue-50 duration-500 dark:bg-slate-700 dark:border dark:border-gray-400 dark:text-white dark:hover:bg-customBlue'
             >
                 Show More
                 <Image
-                    src={assets.right_arrow_bold}
+                    src={isDarkMode ? assets.right_arrow_white : assets.right_arrow_bold}
                     alt='Right arrow'
                     className='w-4'
                 />

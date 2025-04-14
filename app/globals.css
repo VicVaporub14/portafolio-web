@@ -2,9 +2,9 @@
 
 @theme {
   --color-lightHover: rgb(30,98,168);
-  --color-darkHover: rgba(30,58,108, 1);
+  --color-darkHover: rgb(34,34,34);
   --color-darkTheme: rgba(30,40,60, 1);
-  --color-customBlue: rgb(34,34,34);
+  --color-customBlue: rgba(30,58,108, 1);
   --font-outfit: "Outfit", "sans-serif";
   --font-ovo: "Ovo", serif;
   --bg-radial-light: radial-gradient(circle at 400px 50px, rgb(200, 230, 255) 10%, rgb(255,255,255) 60%);

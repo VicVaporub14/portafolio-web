@@ -29,7 +29,7 @@ export default function Header() {
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <Link 
                     href="#contact"
-                    className='text-sm 2xl:text-lg 2xl:px-10 px-6 2xl:py-3 py-2 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
+                    className='text-sm 2xl:text-lg 2xl:px-10 px-6 2xl:py-3 py-2 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent dark:hover:bg-customBlue duration-500'
                 >
                     Contact me
                     <Image 

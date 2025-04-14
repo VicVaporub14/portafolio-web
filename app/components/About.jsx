@@ -20,7 +20,7 @@ export default function About({isDarkMode}) {
 
                 <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                     {infoList.map(({icon, iconDark, title, description}, index) => (
-                        <li className='text-center border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-blue-50 hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50' key={index}>
+                        <li className='text-center border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-blue-50 hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-customBlue' key={index}>
                             <Image 
                                 src={isDarkMode ? iconDark : icon} 
                                 alt={title} 
@@ -33,11 +33,11 @@ export default function About({isDarkMode}) {
                 </ul>
 
                 <h4 className='my-6 text-gray-700 font-ovo dark:text-white'>Tools I use</h4>
-                <ul className='w-72 sm:w-full grid grid-cols-5 sm:flex items-center sm:justify-center gap-3 sm:gap-5 bg-slate-600 rounded-xl p-2'>
+                <ul className='w-72 sm:w-full grid grid-cols-5 sm:flex items-center sm:justify-center gap-3 sm:gap-5 dark:bg-slate-600 rounded-xl p-2'>
                     {toolsData.map((tool, index) => (
                         <li 
                             key={index}
-                            className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
+                            className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-slate-500'
                         >
                             <Image src={tool} alt='Tool' className='w-5 sm:w-7' />
                         </li>
