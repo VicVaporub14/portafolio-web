@@ -40,7 +40,7 @@ export default function Contact({isDarkMode}) {
 
                 <form 
                     onSubmit={onSubmit}
-                    className="text-gray-100"
+                    className="text-gray-700 dark:text-gray-100"
                 >
                     <div 
                         className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 mb-8"
