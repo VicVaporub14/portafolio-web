@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-export default function Experience() {
+export default function Experience({isDarkMode}) {
   return (
     <div id='experience' className='w-full max-w-7xl mx-auto py-10 px-6 scroll-mt-20'> {/* px-[12%] */}
         <h4 className='text-center mb-2 text-lg font-ovo'>What I've done</h4>
@@ -25,7 +25,7 @@ export default function Experience() {
                     >
                         Read more 
                         <Image 
-                            src={assets.right_arrow} 
+                            src={isDarkMode ? assets.right_arrow_white : assets.right_arrow} 
                             className='w-4'
                             alt=''
                         />

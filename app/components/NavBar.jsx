@@ -58,7 +58,7 @@ export default function NavBar({isDarkMode, setIsDarkMode}) {
                     </button>
                     <Link
                         href="#contact"
-                        className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-400 rounded-full ml-4 font-ovo"
+                        className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-400 rounded-full ml-4 font-ovo dark:hover:bg-customBlue transition-colors duration-500"
                     >
                         Contact
                         <Image 

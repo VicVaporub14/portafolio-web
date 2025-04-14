@@ -33,7 +33,7 @@ export default function Work({isDarkMode}) {
                             >
                                 Read more 
                                 <Image 
-                                    src={assets.right_arrow} 
+                                    src={isDarkMode ? assets.right_arrow_white : assets.right_arrow} 
                                     className='w-4'
                                     alt=''
                                 />

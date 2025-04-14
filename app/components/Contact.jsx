@@ -40,7 +40,7 @@ export default function Contact() {
 
                 <form 
                     onSubmit={onSubmit}
-                    className=""
+                    className="text-gray-100"
                 >
                     <div 
                         className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 mb-8"
@@ -49,7 +49,7 @@ export default function Contact() {
                             name="name"
                             type="text" 
                             placeholder="Enter your name" 
-                            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-slate-700"
+                            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-slate-700 "
                             required 
                         />
                         <input 
