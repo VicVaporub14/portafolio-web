@@ -15,12 +15,12 @@ export default function Work() {
 
                     <div
                         key={index}
-                        className="flex max-w-6xl h-56 rounded-lg cursor-pointer bg-white border-[0.5px] border-gray-200 shadow-md hover:bg-blue-50 hover:-translate-y-1 duration-500"
+                        className="flex flex-col md:flex-row max-w-6xl  rounded-lg cursor-pointer bg-white border-[0.5px] border-gray-200 shadow-md hover:bg-blue-50 hover:-translate-y-1 duration-500"
                     >
                         <img
                             src={project.bgImage}
                             alt={project.title}
-                            className="w-1/3 h-auto rounded-lg"
+                            className="w-full md:w-1/3 h-auto rounded-lg"
                         />
                         <div className='flex flex-col flex-1 py-6 px-6 justify-center'>
                             <div>
