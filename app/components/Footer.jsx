@@ -14,8 +14,9 @@ export default function Footer({isDarkMode}) {
             </div>
         </div>
 
-        <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
+        <div className="text-center sm:flex gap-6 items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
             <p>©{new Date().getFullYear()} Victor Soto. All Rights Reserved.</p>
+            <p className="text-sm mt-4">This portfolio was built with Next.js, TailwindCSS and Motion</p>
             <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
                 <li><Link target="_blank" href='https://github.com/VicVaporub14'>GitHub</Link></li>
                 <li><Link target="_blank" href='https://www.linkedin.com/in/v%C3%ADctor-hugo-soto-g%C3%A1ndara-357a752a4/'>LinkedIn</Link></li>
