@@ -15,7 +15,7 @@ export default function Work() {
 
                     <div
                         key={index}
-                        className="flex flex-col md:flex-row max-w-6xl  rounded-lg cursor-pointer bg-white border-[0.5px] border-gray-200 shadow-md hover:bg-blue-50 hover:-translate-y-1 duration-500"
+                        className="flex flex-col md:flex-row max-w-6xl  rounded-lg cursor-pointer bg-white border-[0.5px] border-gray-200 shadow-md hover:bg-blue-50 hover:shadow-black hover:-translate-y-1 duration-500"
                     >
                         <img
                             src={project.bgImage}

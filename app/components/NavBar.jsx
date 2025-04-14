@@ -3,7 +3,7 @@ import { assets } from "@/assets/assets";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
-export default function NavBar() {
+export default function NavBar({isDarkMode, setIsDarkMode}) {
 
     const [isScroll, setIsScroll] = useState(false)
 
@@ -30,10 +30,10 @@ export default function NavBar() {
     return (
         <>
             <nav className={`fixed w-full px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 
-            ${isScroll ? 'bg-opacity-50 backdrop-blur-lg shadow-sm' : ''}`}>
+            ${isScroll ? 'bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20' : ''}`}>
                 <a href="#top">
                     <Image 
-                        src={assets.logo}
+                        src={isDarkMode ? assets.logo_dark_2 : assets.logo}
                         alt="logo"
                         className="w-52 cursor-pointer mr-14"
                     />
@@ -48,11 +48,11 @@ export default function NavBar() {
                 </ul>
 
                 <div className="flex items-center gap-4">
-                    <button>
+                    <button onClick={()=> setIsDarkMode(prev => !prev)}>
                         <Image 
-                            src={assets.moon_icon}
+                            src={isDarkMode ? assets.sun_icon : assets.moon_icon}
                             alt=""
-                            className="w-6"
+                            className="w-6 cursor-pointer"
                         />
                     </button>
                     <a 

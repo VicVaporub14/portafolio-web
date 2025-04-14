@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Header() {
     return (
-        <div 
+        <div
             className='w-11/12 max-w-2xl text-center mx-auto h-screen pt-28 flex flex-col items-center justify-center gap-4'
         >
             <div>
@@ -24,7 +24,7 @@ export default function Header() {
                 className='text-4xl text-sky-800 font-ovo'
             >Web Developer</h1>
             <p
-                className='max-w-2xl mx-auto font-ovo'
+                className='max-w-xl mx-auto font-ovo'
             >I'm a Computer Systems Engineering Student, currently learning and improving my skills as a FullStack Web Developer</p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <Link 
@@ -51,6 +51,7 @@ export default function Header() {
                     />
                 </Link>
             </div>
+            
         </div>
     )
 }

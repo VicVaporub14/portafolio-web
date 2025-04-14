@@ -7,7 +7,8 @@ import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
-import logo_dark from './logo_dark.png';
+import logo_dark from './logo-dark.png'
+import logo_dark_2 from './logo-dark2.png'
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.jpeg';
@@ -55,6 +56,7 @@ export const assets = {
     right_arrow_white,
     logo,
     logo_dark,
+    logo_dark_2,
     mail_icon,
     mail_icon_dark,
     profile_img,
@@ -95,7 +97,7 @@ export const assets = {
 export const workData = [
     {
         title: 'Quadra Car Rental',
-        description: 'A full-stack web application for vehicle rental and reservation. Built with React.js TypeScript, Tailwind CSS on the frontend. Node.js, Express, Prisma and Mongoose. It features a public landing page, a booking system for customers, and an admin dashboard for managing cars, rentals, insurances, and users.',
+        description: 'A full-stack web application for vehicle rental and reservation. Built with React.js TypeScript, Tailwind CSS on the frontend. Node.js, Express, Prisma and Mongoose on the backend. It features a public landing page, a booking system for customers, and an admin dashboard for managing cars, rentals, insurances, and users.',
         bgImage: '/project-1.png',
         link:''
     },
@@ -107,7 +109,7 @@ export const workData = [
     },
     {
         title: 'Fresh Coffe',
-        description: 'Food and Ordering Point of Sale',
+        description: 'This project, Food and Ordering Point of Sale , is a web application designed to manage a kiosk-like system for ordering and managing products. It is built using Next.js and TypeScript, providing a modern, scalable, and type-safe development environment.',
         bgImage: '/project-3.png',
         link:''
     }
