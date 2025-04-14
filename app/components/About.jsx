@@ -33,13 +33,13 @@ export default function About({isDarkMode}) {
                 </ul>
 
                 <h4 className='my-6 text-gray-700 font-ovo dark:text-white'>Tools I use</h4>
-                <ul className='w-72 sm:w-full grid grid-cols-5 sm:flex items-center sm:justify-center gap-3 sm:gap-5 dark:bg-slate-600 rounded-xl p-2'>
+                <ul className='w-72 sm:w-full grid grid-cols-5 sm:flex items-center sm:justify-center gap-3 sm:gap-5 rounded-xl p-2'>
                     {toolsData.map((tool, index) => (
                         <li 
                             key={index}
-                            className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-slate-500'
+                            className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 dark:bg-slate-600'
                         >
-                            <Image src={tool} alt='Tool' className='w-5 sm:w-7' />
+                            <Image src={tool} alt='Tool' className='w-5 sm:w-7 rounded-lg' />
                         </li>
                     ))}
                 </ul>

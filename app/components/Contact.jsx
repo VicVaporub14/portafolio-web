@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 
-export default function Contact() {
+export default function Contact({isDarkMode}) {
 
     const [result, setResult] = useState("");
 
@@ -31,8 +31,8 @@ export default function Contact() {
     };
 
     return (
-        <div id='contact' className='w-full max-w-2xl mx-auto py-10 px-6 scroll-mt-20'>
-            <div className="border rounded-lg border-gray-400 px-10 py-12">
+        <div id='contact' className='w-full max-w-2xl mx-auto py-10 px-6 scroll-mt-20 dark:bg-radial-light'>
+            <div className='border rounded-lg border-gray-400 px-10 py-12 '>
                 <h4 className='text-center mb-2 text-lg font-ovo'>Connect with me</h4>
                 <h2 className='text-center text-4xl font-ovo'>Get in touch</h2>
 
