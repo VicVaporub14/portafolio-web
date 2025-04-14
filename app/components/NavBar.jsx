@@ -3,6 +3,7 @@ import { assets } from "@/assets/assets";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { motion } from "motion/react";
 
 export default function NavBar({isDarkMode, setIsDarkMode}) {
 
@@ -40,13 +41,17 @@ export default function NavBar({isDarkMode, setIsDarkMode}) {
                     />
                 </a>
 
-                <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? '' : 'bg-white shadow-md bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent'}`}>
-                    <li><a className="font-ovo" href="#top">Home</a></li>
-                    <li><a className="font-ovo" href="#about">About me</a></li>
-                    <li><a className="font-ovo" href="#experience">Experience</a></li>
-                    <li><a className="font-ovo" href="#work">My Work </a></li>
-                    <li><a className="font-ovo" href="#contact">Contact me </a></li>
-                </ul>
+                <motion.ul 
+                    initial={{opacity: 0}}
+                    whileInView={{opacity:1}}
+                    transition={{duration: 0.8, delay: 1}}
+                    className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? '' : 'bg-white shadow-md bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent'}`}>
+                    <motion.li whileHover={{scale: 1.05}}><a className="font-ovo" href="#top">Home</a></motion.li>
+                    <motion.li whileHover={{scale: 1.05}}><a className="font-ovo" href="#about">About me</a></motion.li>
+                    <motion.li whileHover={{scale: 1.05}}><a className="font-ovo" href="#experience">Experience</a></motion.li>
+                    <motion.li whileHover={{scale: 1.05}}><a className="font-ovo" href="#work">My Work </a></motion.li>
+                    <motion.li whileHover={{scale: 1.05}}><a className="font-ovo" href="#contact">Contact me </a></motion.li>
+                </motion.ul>
 
                 <div className="flex items-center gap-4">
                     <button onClick={()=> setIsDarkMode(prev => !prev)}>
@@ -56,7 +61,8 @@ export default function NavBar({isDarkMode, setIsDarkMode}) {
                             className="w-6 cursor-pointer"
                         />
                     </button>
-                    <Link
+                    <motion.a
+                        whileHover={{scale: 1.05}}
                         href="#contact"
                         className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-400 rounded-full ml-4 font-ovo dark:hover:bg-customBlue transition-colors duration-500"
                     >
@@ -66,7 +72,7 @@ export default function NavBar({isDarkMode, setIsDarkMode}) {
                             alt="arrow-icon"
                             className="w-3" 
                         />
-                    </Link>
+                    </motion.a>
 
                     <button className="block md:hidden ml-3">
                         <Image
