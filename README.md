@@ -1,6 +1,6 @@
 # Portafolio Web
 
-Este proyecto es un portafolio web desarrollado con **Next.js**, diseñado para mostrar habilidades, proyectos y experiencia profesional de manera moderna y atractiva. El objetivo principal es proporcionar una plataforma personal donde los visitantes puedan explorar información sobre el desarrollador, sus proyectos destacados, y formas de contacto.
+Este proyecto es un portafolio web desarrollado con **Next.js**, diseñado para mostrar mis habilidades, proyectos y experiencia academica de manera moderna y atractiva. El objetivo principal es proporcionar una plataforma personal donde los visitantes puedan explorar información sobre mi, mis proyectos destacados, y formas de contacto.
 
 ## Características Principales
 
@@ -10,7 +10,7 @@ Este proyecto es un portafolio web desarrollado con **Next.js**, diseñado para 
 
 2. **Secciones del Portafolio**:
    - **Inicio**: Introducción breve y atractiva con un diseño limpio.
-   - **Sobre mí**: Información sobre el desarrollador, incluyendo habilidades técnicas y experiencia.
+   - **Sobre mí**: Información sobre mi como desarrollador, incluyendo habilidades técnicas y experiencia.
    - **Proyectos**: Una galería de proyectos destacados con imágenes, descripciones y enlaces para más detalles.
    - **Servicios**: Lista de servicios ofrecidos, con íconos representativos y descripciones.
    - **Contacto**: Un formulario funcional para que los visitantes puedan enviar mensajes directamente.
