@@ -70,7 +70,7 @@ export default function Contact({isDarkMode}) {
                 >
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 mb-8">
                         <motion.input 
-                            initial={{x: -50, opacity: 0}}
+                            initial={{x: -30, opacity: 0}}
                             whileInView={{x: 0, opacity: 1}}
                             transition={{ delay: 1.1, duration: 0.6 }}
                             name="name"
@@ -80,7 +80,7 @@ export default function Contact({isDarkMode}) {
                             required 
                         />
                         <motion.input 
-                            initial={{x: 50, opacity: 0}}
+                            initial={{x: 30, opacity: 0}}
                             whileInView={{x: 0, opacity: 1}}
                             transition={{ delay: 1.2, duration: 0.6 }}
                             name="email"
@@ -91,7 +91,7 @@ export default function Contact({isDarkMode}) {
                         />
                     </div>
                     <motion.textarea 
-                        initial={{x: 100, opacity: 0}}
+                        initial={{x: -30, opacity: 0}}
                         whileInView={{x: 0, opacity: 1}}
                         transition={{ delay: 1.3, duration: 0.6}}
                         name="message"
