@@ -44,22 +44,12 @@ export default function Experience({isDarkMode}) {
                 <motion.div 
                     whileHover={{scale: 1.02}}
                     key={index} 
-                    className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-blue-50 hover:-translate-y-1 duration-500 dark:bg-slate-600 dark:hover:bg-customBlue dark:hover:shadow-none'
+                    className='text-center border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-blue-50 hover:-translate-y-1 duration-500 dark:bg-slate-600 dark:hover:bg-customBlue dark:hover:shadow-none'
                 >
-                    <Image src={icon} alt='' className='w-10 rounded-md'/>
+                    <Image src={icon} alt='icon' className='w-10 rounded-md mx-auto'/>
                     <h3 className='text-lg my-4 text-gray-700 dark:text-white'>{title}</h3>
                     <p className='text-sm text-gray-600 leading-5 dark:text-white'>{description}</p>
-                    <Link
-                        href={link}
-                        className='flex items-center gap-2 text-sm mt-5'
-                    >
-                        Read more 
-                        <Image 
-                            src={isDarkMode ? assets.right_arrow_white : assets.right_arrow} 
-                            className='w-4'
-                            alt=''
-                        />
-                    </Link>
+                    
                 </motion.div>
             ))}
         </motion.div>
