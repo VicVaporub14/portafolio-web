@@ -1,4 +1,4 @@
-import { assets, serviceData } from '@/assets/assets'
+import { assets, experienceData } from '@/assets/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -40,7 +40,7 @@ export default function Experience({isDarkMode}) {
             transition={{delay: 0.9, duration: 0.6}}
             className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-10'
         >
-            {serviceData.map(({icon, title, description, link}, index)=>(
+            {experienceData.map(({icon, title, description, link}, index)=>(
                 <motion.div 
                     whileHover={{scale: 1.02}}
                     key={index} 

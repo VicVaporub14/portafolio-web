@@ -97,7 +97,7 @@ export const assets = {
 export const workData = [
     {
         title: 'Quadra Car Rental',
-        description: 'A full-stack web application for vehicle rental and reservation. Built with React.js TypeScript, Tailwind CSS on the frontend. Node.js, Express, Prisma and Mongoose on the backend. It features a public landing page, a booking system for customers, and an admin dashboard for managing cars, rentals, insurances, and users.',
+        description: 'A full-stack web application for vehicle rental and reservation. Built with React.js, TypeScript and Tailwind CSS on the frontend. Node.js, Express, Prisma and Mongoose on the backend. It features a public landing page, a booking system for customers, and an admin dashboard for managing cars, rentals, insurances, and users.',
         bgImage: '/project-1.png',
         link:'https://github.com/VicVaporub14/quadra_backend'
     },
@@ -115,16 +115,16 @@ export const workData = [
     }
 ]
 
-export const serviceData = [
-    { icon: assets.cuaderno_icon, title: 'Tec de Lerdo Magazine Update', description: 'I contributed in the update of the SICSACID system developed in PHP, incorporating new features to improve reviewer management and their details visualization', link: '' },
-    { icon: assets.ajuste_icon, title: 'Quadra Car Rental', description: 'I developed a web platform for vehicle rental and booking using technologies like React, TypeScript, Tailwind, Node.js, Prisma and Moongose', link: '' },
-    { icon: assets.navegador_icon, title: 'Development of 5 more projects', description: 'I have designed, built and deploy projects like a project and task manager, a budget management, and a Point of Sale System for Food and Orders', link: '' },
+export const experienceData = [
+    { icon: assets.cuaderno_icon, title: 'Academic Journal System Update', description: 'I contributed in the update of the SICSACID system developed in PHP at Tecnologico Superior de Lerdo, incorporating new features to improve reviewer management and their details visualization'},
+    { icon: assets.ajuste_icon, title: 'Academic Project Quadra Car Rental', description: 'I developed a web platform as a student project for vehicle rental and booking using technologies like React, TypeScript, Tailwind, Node.js, Prisma and Moongose'},
+    { icon: assets.navegador_icon, title: 'Development of 5 more projects', description: 'I have designed, built and deploy projects like a: project and task manager, a budget management, and a system for ordering and managing products'},
 ]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Technologies', description: 'JavaScript, TypeScript, React.js, Next.js, C#, .NET' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Instituto Tecnologico Superior de Lerdo' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Skills', description: 'Cloud Computing, Databases, Networking' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Skills', description: 'Cloud Computing (AWS, Google Cloud), Databases, Networking' }
 ];
 
 export const toolsData = [
