@@ -99,19 +99,19 @@ export const workData = [
         title: 'Quadra Car Rental',
         description: 'A full-stack web application for vehicle rental and reservation. Built with React.js TypeScript, Tailwind CSS on the frontend. Node.js, Express, Prisma and Mongoose on the backend. It features a public landing page, a booking system for customers, and an admin dashboard for managing cars, rentals, insurances, and users.',
         bgImage: '/project-1.png',
-        link:''
+        link:'https://github.com/VicVaporub14/quadra_backend'
     },
     {
         title: 'UpTask',
         description: 'A web-based project and task management system that allows users to create, organize, and track progress on multiple projects. Features include user authentication, real-time task updates, and a responsive interface for efficient collaboration.',
         bgImage: '/project-2.png',
-        link:''
+        link:'https://github.com/VicVaporub14/UpTask_Backend'
     },
     {
         title: 'Fresh Coffe',
         description: 'This project, Food and Ordering Point of Sale , is a web application designed to manage a kiosk-like system for ordering and managing products. It is built using Next.js and TypeScript, providing a modern, scalable, and type-safe development environment.',
         bgImage: '/project-3.png',
-        link:''
+        link:'https://github.com/VicVaporub14/quiosco-food-next'
     }
 ]
 

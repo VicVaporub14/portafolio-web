@@ -60,12 +60,13 @@ export default function Work({isDarkMode}) {
                             <Link
                                 href={project.link}
                                 className='flex items-center gap-2 text-sm mt-5'
+                                target='_blank'
                             >
                                 Read more 
                                 <Image 
                                     src={isDarkMode ? assets.right_arrow_white : assets.right_arrow} 
                                     className='w-4'
-                                    alt=''
+                                    alt='arrow'
                                 />
                             </Link>
                         </div>
