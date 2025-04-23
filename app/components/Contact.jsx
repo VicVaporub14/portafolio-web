@@ -10,7 +10,7 @@ export default function Contact({isDarkMode}) {
 
     const onSubmit = async (event) => {
         event.preventDefault();
-        setResult("Sending....");
+        setResult("Sending Information....");
         const formData = new FormData(event.target);
 
         formData.append("access_key", "8d69e9b0-cd6d-4c19-ada5-61dd5e3a31f2");
@@ -23,7 +23,7 @@ export default function Contact({isDarkMode}) {
         const data = await response.json();
 
         if (data.success) {
-            setResult("Form Submitted Successfully");
+            setResult("Form Submitted Successfully, I'll respond to you ASAP:)");
             event.target.reset();
         } else {
             console.log("Error", data);
@@ -113,7 +113,7 @@ export default function Contact({isDarkMode}) {
                             className="w-4"
                         />
                     </motion.button>
-                    <p className="mt-4">{result}</p>
+                    <p className="mt-6 text-center transition-opacity duration-300">{result}</p>
                 </motion.form>
             </div>
         </motion.div>
